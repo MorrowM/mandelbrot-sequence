@@ -1,0 +1,16 @@
+cabal-version: 2.4
+name:          mandelbrot-sequence
+version:       0.1
+author:        themorrowm@gmail.com
+maintainer:    MorrowM
+build-type:    Simple
+
+executable mandelbrot-sequence
+  main-is:          Main.hs
+  build-depends:
+    , base
+    , colour
+    , gloss
+
+  hs-source-dirs:   .
+  default-language: GHC2021
